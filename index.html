@@ -1,0 +1,1003 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Mask3D">
+  <meta name="keywords" content="OpenSun3D">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🤖 EMAI</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <style>
+    .rcorners1 {
+      border-radius: 10px;
+      background: #ffffffd0;
+      padding: 5px;
+      font-size: 120%;
+      color: #5c5c5c;
+    }
+
+    .button {
+      border-radius: 10px;
+      background: #ffffffd0;
+      padding: 5px 15px 5px 15px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      /* background-color: #f9f9f9; */
+      min-width: 140px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 5px 15px 5px 15px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">EMAI<br />
+              <p class="title is-4 publication-title"> <p class="title is-3 publication-title">EMbodied AI: Trends, Challenges, and Opportunities (EMAI 2024)
+              </p>
+              
+            </h1>
+            <h1 class="is-is-5" style="color: #5c5c5c;">in conjunction with ICIP 2024, Abu Dhabi, UAE.</h1>
+            <b>Time - Monday, October 28th, 8:30-12:00 + 14:30-18:00</b>
+            <br>
+            <b>Location - Capital Suite - 12 A, <a href="https://2024.ieeeicip.org/venue/" target="_blank">ADNEC Centre</a></b>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h2 class="subtitle has-text-centered">
+          <a href="#overview" class="button">Overview</a>
+          <a href="#schedule" class="button">Schedule</a>
+          <a href="#speakers" class="button">Speakers</a>
+          <a href="#dates" class="button">Dates</a>
+          <!-- <a href="#accepted" class="button">Accepted Papers</a> -->
+          <!-- <a href="#challenge" class="button">Challenge</a> -->
+          <a href="#organizers" class="button">Organizers</a>
+          <div class="dropdown">
+            <span class="button"><i class="fa fa-bars"></i></span>
+            <div class="dropdown-content">
+              <a href="https://2024.ieeeicip.org/">ICIP 2024</a>
+              <!-- <a href="index_iccv23.html">ICCV 2023</a> -->
+            </div>
+        </h2>
+        <!-- <h3 class="subtitle has-text-centered">
+
+        </h3> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="margin-top: -50px">
+    <div class="container is-max-desktop">
+      <section class="section" id="Motivation">
+        <div class="container is-max-desktop content">
+          <h2 class="title" id="overview">Overview 💡</h2>
+          <div class="content has-text-justified">
+            <p>The "Embodied AI: Exploring Trends, Challenges, and Opportunities" workshop, set to convene at ICIP 2024 in Abu Dhabi, UAE, serves as a broad-based platform for delving into the convergence of Embodied AI with critical disciplines, including computer vision, language processing, graphics, and robotics. Aimed at enhancing comprehension of AI agents' skills in perception, interaction, and logical reasoning within varied environments, the workshop encourages a cross-disciplinary exchange among premier researchers and industry figures. Participants can look forward to a rich program featuring thought-provoking talks by distinguished experts, a presentation session of the latest research, and dynamic discussions on the evolving landscape of smart, interactive technologies. This forum is poised to be a seminal event for those eager to influence and drive forward the progress in Embodied AI.
+            </p>
+            <P>The dedicated workshop on Embodied AI is essential due to its unique focus on integrating physical embodiment with AI capabilities, addressing challenges and opportunities not fully explored in the main ICIP conference. It merges computer vision, language processing, and robotics, pushing beyond traditional boundaries to create agents that perceive, interact, and reason within their environments. This specialized forum encourages cross-disciplinary collaboration, fostering advancements that are vital for the development of intelligent, interactive systems, and addressing the gap between current image processing techniques and the future needs of AI research, including foundation models, robotics, and embodied intelligence.
+            </P>
+            <P>The "Embodied AI: Exploring Trends, Challenges, and Opportunities" workshop at ICIP 2024 in Abu Dhabi, UAE, stands at the confluence of Embodied AI and pivotal areas such as computer vision, language processing, graphics, and robotics. This synthesis is poised to catalyze significant momentum in the field, by bringing the frontier of foundation models, robotics, and embodied AI to the research community.
+            </P>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="News">
+        <div class="container is-max-desktop content">
+          <h2 class="title">News 📰</h2>
+          <div class="content has-text-justified">
+            <ul>
+              <li><b>April 2023</b>: Workshop website is online.</li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+      <section class="section" style="margin-top: -50px">
+        <div class="container is-max-desktop">
+          <section class="section" id="Schedule">
+            <div class="container is-max-desktop content">
+              <h2 class="title" id="schedule">Schedule ⏰ (tentative)</h2>
+              <div class="content has-text-justified">
+                <table class="table table-striped" style="font-size: 15px;"> <!-- Reduced font size -->
+                  <thead>
+                    <tr>
+                      <th width="120">Time</th>
+                      <th width="550">Topic</th>
+                      <th>Speaker</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>8:30 - 8:35</td>
+                      <td style="background-color:#cae1ff">Opening Remark</td>
+                      <td>Yi Fang</td>
+                    </tr>
+                    <tr>
+                      <td>8:35 - 9:00</td>
+                      <td style="background-color:#ffe0c6">Embodied Visual Navigation</td>
+                      <td>Yi Fang</td>
+                    </tr>
+                    <tr>
+                      <td>9:00 - 9:30</td>
+                      <td style="background-color:#cae1ff">Building Multilingual Multimodal Conversational Assistants</td>
+                      <td>Hisham Cholakkal</td>
+                    </tr>
+                    <tr>
+                      <td>9:30 - 10:00</td>
+                      <td style="background-color:#ffe0c6">Robot Imagination: Affordance Reasoning via Physical Simulation</td>
+                      <td>Gregory Chirikjian</td>
+                    </tr>
+                    <tr>
+                      <td>10:00 - 10:30</td>
+                      <td style="background-color:#eeeeee">Coffee Break</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>10:30 - 11:00</td>
+                      <td style="background-color:#cae1ff">Scene Understanding for Safe and Autonomous Navigation</td>
+                      <td>Amit K. Roy-Chowdhury</td>
+                    </tr>
+                    <tr>
+                      <td>11:00 - 11:30</td>
+                      <td style="background-color:#ffe0c6">From Video Understanding to Embodied Agents</td>
+                      <td>Ivan Laptev</td>
+                    </tr>
+                    <tr>
+                      <td>11:30 - 12:00</td>
+                      <td style="background-color:#cae1ff">Visual Human Motion Analysis</td>
+                      <td>Li Cheng</td>
+                    </tr>
+                    <tr>
+                      <td>12:00 - 14:30</td>
+                      <td style="background-color:#ffffff">Lunch</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>14:30 - 15:00</td>
+                      <td style="background-color:#cae1ff">Towards Efficient Vision-Language Navigation</td>
+                      <td>Xiaojun Chang</td>
+                    </tr>
+                    <tr>
+                      <td>15:00 - 15:30</td>
+                      <td style="background-color:#ffe0c6">Data-Centric Approaches to Advancing Embodied AI</td>
+                      <td>Zhiqiang Shen</td>
+                    </tr>
+                    <tr>
+                      <td>15:30 - 16:00</td>
+                      <td style="background-color:#cae1ff">To Enable Multimedia Machines to Perceive and Act as Humans Do</td>
+                      <td>Weisi Lin</td>
+                    </tr>
+                    <tr>
+                      <td>16:00 - 16:30</td>
+                      <td style="background-color:#eeeeee">Coffee Break</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>16:30 - 17:00</td>
+                      <td style="background-color:#cae1ff">Large-scale Heterogeneous Scene Modelling and Editing</td>
+                      <td>Dan Xu</td>
+                    </tr>
+                    <tr>
+                      <td>17:00 - 17:30</td>
+                      <td style="background-color:#ffe0c6">Vision-Language Models and Robotics for Climate Action</td>
+                      <td>Maryam Rahnemoonfar</td>
+                    </tr>
+                    <tr>
+                      <td>17:30 - 18:00</td>
+                      <td style="background-color:#cae1ff">Flexible Modality Learning: Modeling Arbitrary Modality Combination via the Mixture-of-Expert Framework</td>
+                      <td>Tianlong Chen</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      
+      
+      
+
+          <section class="section" id="Invited Speakers">
+            <div class="container is-max-desktop content">
+              <h2 class="title" id="speakers">Invited Speakers 🧑‍🏫</h2>
+
+
+              <a href="https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/yi-fang.html" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/fang.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Yi Fang</p>
+                        <p class="subtitle is-6">Associate Professor, New York University</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                    Dr. Yi Fang, is an Associate Professor of Electrical and Computer Engineering and an Affiliated Associate Professor of Computer Science at NYU and NYU Abu Dhabi, as well as a member of the Center for Artificial Intelligence and Robotics (CAIR) at NYU. After earning his doctorate from Purdue University with a focus on computer graphics and vision, he gained industry experience at Siemens and Riverain Technologies, and academic experience at Vanderbilt University. His research focuses on embodied AI, general-purpose robots, and humanoids, with applications spanning engineering, social science, medicine, and biology. Dr. Fang founded the NYU AIR Lab (Embodied AI and Robotics Lab), a leading center for research in robotics and AI.                     </div>
+                  </div>
+                </div>
+              </a>    
+
+
+              <a href="https://mbzuai.ac.ae/study/faculty/hisham-cholakkal/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/Hisham.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Hisham Cholakkal</p>
+                        <p class="subtitle is-6">Assistant Professor of Computer Vision, Mohamed bin Zayed University of Artificial Intelligence</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Hisham Cholakkal is an Assistant Professor at MBZUAI, having diverse experiences in fundamental research, teaching, and commercial product development across diverse industries. Prior to joining MBZUAI, he worked as a Research Scientist at the Inception Institute of Artificial Intelligence (IIAI) in Abu Dhabi. Before his role at IIAI, he served as a Senior Technical Lead in the Computer Vision and Deep Learning Research team at Mercedes-Benz R&D in India. He has also worked at the Advanced Digital Science Center (ADSC) in Singapore and at the BEL Central Research Lab in India. Cholakkal's research interests include multimodal models, LLMs/VLMs, visual recognition, and AI in healthcare. His recent focus is on building multimodal conversational systems capable of reasoning and interacting seamlessly with humans in real time. He is also interested in the real-world applications of computer vision and machine learning algorithms in healthcare and remote sensing. Cholakkal's research has received several recognitions and funding, including the Google Research Award 2023 at MBZUAI, Meta Llama Impact Innovation Award 2024, MBZUAI Seed fund 2024, Weizmann Institute of Science - MBZUAI Joint Research Grant 2022-2025, etc. Cholakkal will serve as a General Chair at ACM Multimedia Asia 2026 and has previously acted as Area Chair for ECCV 2024 and BMVC 2024. He was the Primary Organizer of workshops at ICCV 2023, CVPR 2024, NeurIPS 2022, and ACCV 2022. Additionally, he serves as an Associate Editor for journals such as IET Computer Vision and is a program committee member for several top conferences, including CVPR, ICCV, NeurIPS, ICLR, and ECCV.
+                    </div>
+                  </div>
+                </div>
+              </a>              
+
+              <a href="https://me.udel.edu/faculty/gregory-s-chirikjian/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/gregory.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Gregory S. Chirikjian</p>
+                        <p class="subtitle is-6">Professor & Department Chair, University of Delaware</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      
+                     Dr.  Gregory S. Chirikjian is the Willis F. Harrington Professor and Chair of the Mechanical Engineering Department at the University of Delaware. A distinguished roboticist and applied mathematician, he is known for his groundbreaking contributions to robotics, particularly in kinematics, motion planning, and the application of group theory to engineering. His research has advanced the understanding of hyper-redundant robots and stochastic methods on Lie groups, and he is actively involved in embodied AI, focusing on affordance-based reasoning to enhance robotic intelligence. Chirikjian's career is marked by numerous honors, including being named an NSF Young Investigator, a Presidential Faculty Fellow, and a Fellow of both IEEE and ASME. Before joining the University of Delaware in 2024, he held leadership roles at the National University of Singapore
+                                        </div>
+                  </div>
+                </div>
+              </a>              
+
+              <a href="https://vcg.engr.ucr.edu/amit" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/amit.jpeg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Amit K Roy Chowdhury</p>
+                        <p class="subtitle is-6">Professor and Director of UC Riverside AI Research and Education Institute, University of California, Riverside</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Amit Roy-Chowdhury received his PhD from the University of Maryland, College Park (UMCP) in 2002 and joined the University of California, Riverside (UCR) in 2004 where he is a Professor and UC Presidential Chair of Electrical and Computer Engineering, Cooperating Faculty in Computer Science and Engineering, and Co-Director of the UC Riverside AI Research and Education Institute. He leads the Video Computing Group at UCR, working on foundational principles of computer vision, image processing, and machine learning, with applications in cyber-physical, autonomous and intelligent systems. He has published over 250 papers in peer-reviewed journals and conferences and two monographs: Person Re-identification with Limited Supervision and Camera Networks: The Acquisition and Analysis of Videos Over Wide Areas. He is on the editorial boards of major journals and program committees of the main conferences in his area. He is a Fellow of the IEEE and IAPR, received the Doctoral Dissertation Advising/Mentoring Award from UCR, and the ECE Distinguished Alumni Award from UMCP.                
+                     </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://www.di.ens.fr/~laptev/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/Laptev_sqr.jpeg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Ivan Laptev</p>
+                        <p class="subtitle is-6">Professor, Mohamed bin Zayed University of Artificial Intelligence</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Ivan Laptev obtained his master's degree in computer science at the Royal Institute of Technology (KTH) in Sweden in 1997 and then worked as a research assistant at the Technical University of Munich. In 2004, he earned his Ph.D. in computer science from KTH and pursued a postdoc position at the INRIA Vista team in France. He was appointed as INRIA Research Scientist in 2005 and then as INRIA Research Director in 2013. He has been with INRIA Paris since 2009, where he has led the WILLOW research team between 2021 and 2023. He has published more than 150 technical papers, most of which appeared in international journals and major peer-reviewed conferences of computer vision, machine learning and robotics. He has graduated 19 Ph.D. students who now pursue careers in industrial and academic research labs. He has also co-founded a computer vision company, VisionLabs, which has grown to 250 people. Laptev has been actively involved in the scientific community, serving as an associate editor of IJCV and TPAMI, and  as a program chair for CVPR 2018, ICCV 2023 and ACCV 2024. He will also serve as a General Chair of ICCV 2029 bringing the international computer vision community to UAE. He has co-organized several tutorials, workshops and challenges at major computer vision conferences. He has also co-organized a series of INRIA summer schools on computer vision and machine learning (2010–2013) and Machines Can See summits (2017–2023). He received an ERC Starting Grant in 2012 and was awarded a Helmholtz prize for significant impact on computer vision in 2017.</div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank">
+            <div class="card">
+              <div class="card-content">
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="static/images/li.jpeg">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Li Cheng</p>
+                    <p class="subtitle is-6">Associate Professor, University of Alberta</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Dr. Li Cheng is an associate professor with the Department of Electrical and Computer Engineering, University of
+                  Alberta. He also hold an adjunct position with A*STAR, Singapore, where he have led a group in Machine Learning
+                  for Bioimage Analysis at the Bioinformatics Institute. Prior to joining University of Alberta in year 2018, he
+                  worked at A*STAR, Singapore, TTI-Chicago, USA, and NICTA, Australia. He received my BSc degree in Computer
+                  Science from Jilin University in 1996, M. Eng. degree from Nankai University in 1999, and PhD in Computing
+                  Science from the University of Alberta in 2004. His research expertise is mainly on computer vision and machine
+                  learning. He is a member of the Institute of Electrical and Electronics Engineers (IEEE), the Association for
+                  Computing Machinery (ACM), and the Association for the Advancement of Artificial Intelligence (AAAI).</div>
+              </div>
+            </div>
+          </a>
+
+              
+
+              <a href="https://www.xiaojun.ai/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/xiaojun.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Xiaojun Chang</p>
+                        <p class="subtitle is-6">Professor, Australian Artificial Intelligence Institute (AAII) and Visiting Professor at Mohamed bin Zayed University of Artificial Intelligence </p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Xiaojun Chang is a Professor at the Australian Artificial Intelligence Institute (AAII) at UTS and a Visiting Professor at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). He directs the Recognition, Learning, and Reasoning Lab (ReLER), focusing on AI, computer vision, multimedia, and machine learning, particularly for analyzing visual, acoustic, and textual signals in applications like video surveillance. Before joining UTS in 2022, Dr. Chang held positions at Carnegie Mellon University, Monash University, and RMIT. He has secured over $3 million in research funding and made significant contributions to video analysis and multimedia retrieval, including healthcare innovations. A Clarivate Analytics Highly Cited Researcher (2019-2023), his work, including an automatic report generation system for critically ill COVID-19 patients, has gained international recognition. His team has won prestigious global challenges, and he has published over 200 peer-reviewed papers. Committed to advancing AI for real-world applications, Dr. Chang regularly collaborates with industry to develop intelligent systems that benefit humanity.   
+                                   </div>
+                                  </div>
+                </div>
+              </a>
+
+
+
+              <a href="https://mbzuai.ac.ae/study/faculty/zhiqiang-shen/" target="_blank"> 
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/shen.jpeg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Zhiqiang Shen</p>
+                        <p class="subtitle is-6">Assistant Professor, Mohamed bin Zayed University of Artificial Intelligence</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Zhiqiang Shen is an Assistant Professor of Machine Learning at MBZUAI, specializing in efficient deep learning, machine learning, and computer vision. His research focuses on developing deep learning methods for image recognition, object detection, and designing efficient architectures with parameter-efficient fine-tuning strategies. Prior to MBZUAI, Dr. Shen was an assistant research professor at Hong Kong University of Science and Technology (HKUST) and a postdoctoral researcher at CyLab, Carnegie Mellon University. His recent work includes low-bit neural networks, knowledge distillation, and efficient architectures for CNNs and transformers, with a focus on unsupervised learning and image understanding.
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+              <a href="https://dr.ntu.edu.sg/cris/rp/rp00683" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/Prof Lin Weisi_2.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Weisi Lin</p>
+                        <p class="subtitle is-6">Associate Dean (Research), College of Computing & Data Science, Nanyang Technological
+                          University</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Weisi Lin is a distinguished researcher and educator, holding a PhD in Computer Vision from King's College
+                      London, as well as a BSc in Electronics and MSc in Digital Signal Processing from Sun Yat-Sen University, China.
+                      He has held academic and research positions at institutions such as Sun Yat-Sen University, Bath University, and
+                      the National University of Singapore, as well as leadership roles in Singapore's Institute for Infocomm
+                      Research. With over 400 refereed publications, 16 patents, and contributions to international standards, Dr. Lin
+                      has led more than 10 major projects in digital multimedia technology. His research focuses on
+                      perception-inspired signal modeling, visual quality evaluation, video compression, and multimedia systems,
+                      balancing academic theory with industrial application. </div>
+                  </div>
+                </div>
+              </a>
+
+              
+              <a href="https://www.danxurgb.net/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/dan.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Dan Xu</p>
+                        <p class="subtitle is-6">Assistant Professor, Department of Computer Science and Engineering, Hong Kong University of Sciences and Technology (HKUST)</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                     Dr. Dan Xu, is an Assistant Professor in the Department of Computer Science and Engineering at HKUST, with a research focus on computer vision, multimedia, and machine learning. He was previously a Postdoctoral Research Fellow in the Visual Geometry Group at the University of Oxford, working under Prof. Andrea Vedaldi and Prof. Andrew Zisserman, and earned his PhD from the University of Trento under Prof. Nicu Sebe. Dr. Xu's research interests include deep learning, multi-modal and multi-task learning, with applications in 2D/3D perception, scene understanding, dense scene prediction, and large-scale 3D modeling, as well as human- and scene-centric generation and editing.                    </div>
+                  </div>
+                </div>
+              </a> 
+
+
+          <a href="https://engineering.lehigh.edu/faculty/maryam-rahnemoonfar" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded" src="static/images/Maryam.jpg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Maryam Rahnemoonfar</p>
+                        <p class="subtitle is-6">Associate Professor, Director of Computer Vision and Remote Sensing Laboratory (Bina lab), Lehigh University </p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Dr. Maryam Rahnemoonfar is a Tenured Associate Professor of Computer Science and Engineering at Lehigh University's P.C. Rossin College of Engineering and Applied Science, with a joint appointment in Civil and Environmental Engineering. She directs the Computer Vision and Remote Sensing Laboratory (Bina Lab), where her research spans Data Science for Sustainability, Deep Learning, Computer Vision, AI for Social Good, and Remote Sensing. Her work focuses on developing machine learning algorithms for heterogeneous sensors such as Radar, Sonar, and Multi-spectral. Dr. Rahnemoonfar has secured multiple prestigious awards, including the NSF HDR Institute Award and Amazon Machine Learning Award. Passionate about interdisciplinary research for environmental and humanitarian solutions, she has led numerous projects and served on the National Academy of Sciences' workshop on Antarctic research technologies. She earned her Ph.D. in Computer Science from the University of Salford, UK, and previously held academic positions at UMBC and Texas A&M University-Corpus Christi.                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+              
+          <a href="https://tianlong-chen.github.io/" target="_blank">
+            <div class="card">
+              <div class="card-content">
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="static/images/chen.jpg">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Tianlong Chen</p>
+                    <p class="subtitle is-6">Assistant Professor, University of North Carolina at Chapel Hill</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Dr. Tianlong Chen received the Ph.D. degree in Electrical and Computer Engineering from University of Texas at Austin, TX,
+                  USA, in 2023. He starts as an Assistant Professor of Computer Science at The University of North Carolina at Chapel Hill
+                  in Fall 2024. Before that, he is a Postdoctoral Researcher at Massachusetts Institute of Technology (CSAIL@MIT), Harvard
+                  (BMI@Harvard), and Broad Institute of MIT & Harvard in 2023-2024. His research focuses on building accurate, trustworthy, and efficient machine learning systems. He devotes his most
+                  recent passion to various (A) important machine learning problems - sparsity, robustness, learning to optimize, graph
+                  learning, and diffusion models; (B) interdisciplinary scientific challenges - bioengineering and quantum comptuing. He
+                  received IBM Ph.D. Fellowship, Adobe Ph.D. Fellowship, Graduate Dean's Prestigious Fellowship, AdvML Rising Star, and
+                  the Best Paper Award from the inaugural Learning on Graphs (LoG) Conference 2022.</div>
+              </div>
+            </div>
+          </a>
+
+              <br /><!--
+          <a href="https://www.professoren.tum.de/en/dai-angela">
+            <div class="card">
+              <div class="card-content">
+
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="./static/img/angela.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Professor Angela Dai</p>
+                    <p class="subtitle is-6">Technical University of Munich</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Angela Dai is an assistant professor at the Technical University of Munich (TUM) where she leads the
+                  3D AI Lab.
+                  Her research focuses on understanding how the 3D world around us can be modeled and semantically
+                  understood.
+                  Prof. Dai is the creator of the seminal ScanNet benchmark that sparked the development of numerous 3D
+                  scene understanding works.
+                </div>
+              </div>
+            </div>
+          </a>
+          <br />
+          <a href="https://www.sfu.ca/computing/people/faculty/manolissavva.html">
+            <div class="card">
+              <div class="card-content">
+
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="./static/img/manolis.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Professor Manolis Savva</p>
+                    <p class="subtitle is-6">Simon Fraser University</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Manolis Savva is an assistant professor in the School of Computing Science at Simon Fraser University,
+                  and a Canada Research Chair in Computer Graphics.
+                  His research focuses on analysis, organization and generation of 3D content.
+                  The methods that he works on are stepping stones towards holistic 3D scene understanding revolving
+                  around people,
+                  with applications in computer graphics, computer vision, and robotics.
+                  Prof. Savva contributed highly influential works towards embodied AI including
+                  Matterport and Habitat.
+                </div>
+              </div>
+            </div>
+          </a>
+          <br />
+          <a href="https://www.cs.princeton.edu/~funk/">
+            <div class="card">
+              <div class="card-content">
+
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="./static/img/thomas.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Professor Thomas Funkhouser</p>
+                    <p class="subtitle is-6">Google / Princeton University</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Thomas Funkhouser is a full professor at Princeton University and a senior research scientist at
+                  Google.
+                  His research focuses on computer graphics, computer vision, and in particular 3D machine perception.
+                  In recent years, Professor Funkhouser has greatly impacted the field of 3D scene understanding.
+                </div>
+              </div>
+            </div>
+          </a>
+          <br />
+          <a href="https://itee.uq.edu.au/profile/8084/jen-jen-chung">
+            <div class="card">
+              <div class="card-content">
+
+                <div class="columns is-vcentered">
+                  <div class="column is-one-quarter">
+                    <figure class="image is-128x128">
+                      <img class="is-rounded" src="./static/img/jenjen.jpeg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p class="title is-4">Professor Jen Jen Chung</p>
+                    <p class="subtitle is-6">University of Queensland</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Jen Jen Chung is an associate professor in Mechatronics within the School of Information Technology
+                  and Electrical Engineering at the University of Queensland.
+                  Her current research interests include perception, planning and learning for robotic mobile
+                  manipulation, algorithms for robot navigation through human crowds, informative path planning and
+                  adaptive sampling.
+                </div>
+              </div>
+            </div>
+          </a>
+            </div>
+          </section>
+
+          <section class="section" id="Invited Speakers">
+            <div class="container is-max-desktop content">
+              <!-- <h2 class="title" id="relatedwork">Related Works 🧑‍🤝</h2>
+              Below is a collection of concurrent and related works in the field of open-set 3D scene understanding.
+              Please
+              feel free to get in touch to add other works as well.
+              <ul>
+                <li><a href="https://concept-fusion.github.io/">ConceptFusion: Open-set Multimodal 3D Mapping</a> RSS'23
+                </li>
+                <li><a href="https://pengsongyou.github.io/openscene">OpenScene: 3D Scene Understanding with Open
+                    Vocabularies</a> CVPR'23</li>
+                <li><a href="https://www.lerf.io">LERF: Language Embedded Radiance Fields</a> ICCV'23</li>
+                <li><a href="https://pfnet-research.github.io/distilled-feature-fields/">Decomposing NeRF for Editing
+                    via Feature Field Distillation</a> NeurIPS'22</li>
+                <li><a href="https://semantic-abstraction.cs.columbia.edu/">Semantic Abstraction: Open-World 3D Scene
+                    Understanding from 2D Vision-Language Models</a> CoRL'22</li>
+                <li><a href="https://rozdavid.github.io/scannet200">Language-Grounded Indoor 3D Semantic Segmentation in
+                    the Wild</a> ECCV'22</li>
+                <li><a href="https://3dlg-hcvc.github.io/multiscan/">MultiScan: Scalable RGBD Scanning for 3D
+                    Environments with Articulated Objects</a> NeurIPS'22</li>
+                <li><a href="https://github.com/NVlabs/ODISE">ODISE: Open-Vocabulary Panoptic Segmentation with
+                    Text-to-Image Diffusion Models</a> CVPR'23</li>
+                <li><a href="https://github.com/Kunhao-Liu/3D-OVS">Weakly Supervised 3D Open-Vocabulary Segmentation</a>
+                  NeurIPS'23</li>
+                <li><a href="https://arxiv.org/abs/2306.02329">Multi-CLIP: Contrastive Vision-Language Pre-training for
+                    Question Answering tasks in 3D Scenes</a></li>
+                <li><a href="https://openmask3d.github.io">OpenMask3D: Open-Vocabulary 3D Instance Segmentation</a>
+                  NeurIPS'23</li>
+                <li><a href="https://arxiv.org/abs/2303.04748">CLIP-FO3D: Learning Free Open-world 3D Scene
+                    Representations from 2D Dense CLIP</li>
+                <li><a href="https://tsagkas.github.io/vl-fields/">VL-Fields: Towards Language-Grounded Neural Implicit
+                    Spatial Representations</a> ICRA'23</li>
+                <li><a
+                    href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ding_PLA_Language-Driven_Open-Vocabulary_3D_Scene_Understanding_CVPR_2023_paper.pdf">PLA:
+                    Language-Driven Open-Vocabulary 3D Scene Understanding</a> CVPR'23</li>
+                <li><a href="https://arxiv.org/abs/2304.00962">RegionPLC: Regional Point-Language Contrastive Learning
+                    for Open-World 3D Scene Understanding</a></li>
+                <li><a href="https://arxiv.org/abs/2309.00616">OpenIns3D: Snap and Lookup for 3D open-vocabulary
+                    Instance Segmentation</a></li>
+                <li><a href="https://concept-graphs.github.io/assets/pdf/2023-ConceptGraphs.pdf">ConceptGraphs:
+                    Open-Vocabulary 3D Scene Graphs for Perception and Planning</a></li>
+                <li><a
+                    href="https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Open-Vocabulary_Point-Cloud_Object_Detection_Without_3D_Annotation_CVPR_2023_paper.pdf">Open-Vocabulary
+                    Point-Cloud Object Detection without 3D Annotation</a> CVPR'23</li>
+                <li><a href="https://github.com/yangcaoai/CoDA_NeurIPS2023">CoDA: Collaborative Novel
+                    Box Discovery and Cross-modal Alignment for Open-vocabulary 3D Object Detection</a> NeurIPS'23
+                </li>
+                <br>
+              </ul>
+              and many more ... -->
+
+
+              </ul>
+            </div>
+          </section>
+          
+          <section class="section" style="margin-top: -50px">
+            <div class="container is-max-desktop">
+              <section class="section" id="Motivation">
+                <div class="container is-max-desktop content">
+                  <h2 class="title" id="overview">Call for Papers 📝</h2>
+                  <div class="content has-text-justified">
+                  <p>We warmly invite submissions of high-quality research papers, not exceeding 4 pages (excluding references), that focus on the following themes of Embodied AI:</p>
+                    <li>Embodied Intelligence Through World Models</li> 
+                    <li>Embodied Navigation                 </li> 
+                    <li>Embodied Manipulation</li> 
+                    <li>Embodied AI for Multimodal Processing</li> 
+                    <li>Visual Rearrangement </li> 
+                    <li>Foundation Models for Embodied AI</li>        
+                    <li>Sim to Real Transfer </li> 
+                    <li>AI with Human Interaction</li> 
+                    <li>Generative Model for Embodied AI </li> 
+                    <li>Simulation Environments </li> 
+                    <li>Embodied Question Answering </li> 
+                    
+                  <br>
+                  <p>Selected papers will earn the opportunity for presentation in the form of either posters or spotlight talks during the workshop. Additionally, these papers will be published and made accessible via IEEE Xplore, adhering to the <a href ="https://cmsworkshops.com/ICIP2024/papers/paper_kit.php"> ICIP's guidelines </a> for workshop contributions. Please note, as per ICIP regulations, at least one author from each accepted paper is required to complete an in-person registration for the conference.</p>
+                  <p>The submission deadline is April 25, 2024 (Anywhere on Earth). Papers should be no longer than 4 pages (excluding references) and styled in the ICIP <a href = "https://cmsworkshops.com/ICIP2024/papers/paper_kit.php">format</a>.</p>
+                  <p>Submission Link : <a href = "https://urldefense.proofpoint.com/v2/url?u=https-3A__cmsworkshops.com_ICIP2024_papers_submission.asp-3FType-3DWS-26ID-3D4&d=DwIFaQ&c=slrrB7dE8n7gBJbeO0g-IQ&r=Nr6S6uI8GLu6TmJ7zqgFrA&m=iqxFpl5jtpkohRzLo3ZS-o6rPlDgYuz09yQjGisvyexypnagV8jAsC7RYz4Dra35&s=GMettIFex-NL1WZjDE2ItlJS2JG63DOkzBeyykhwiE0&e="><b>Link</b></a></p>
+                  </div>
+                </div>
+              </section>         
+          
+          <section class="section" id="Papers">
+            <div class="container is-max-desktop content">
+              <h2 class="title" id="dates">Important Dates 🗓️</h2>
+              <ul>
+                <!-- <li><b>Paper Submission Deadline</b> -->
+                  <!-- : We accept novel full 8-page papers for publication in the proceedings, and
+                  either shorter
+                  4-page extended abstracts or 8-page papers of novel or previously published work that will not
+                  be included in
+                  the
+                  proceedings. All submissions have to follow the <a
+                    href="https://cvpr.thecvf.com/Conferences/2024/AuthorGuidelines">CVPR 2024 author
+                    guidelines.</a>
+                </li>
+                <ul>
+                  <li><b>Submission Portal</b>: <a href="https://cmt3.research.microsoft.com/OpenSUN3D2024">CMT</a></li> -->
+                  <li><b>Paper Submission Deadline</b>: April 25, 2024.</li>
+                  <li><b>Paper Acceptance Notification</b>: June 6, 2024</li>
+                  <li><b>Final Paper Submission Deadlin</b>: June 19, 2024</li>
+                  <li><b>Author Registration Deadline</b>: July 11, 2024</li>
+                </ul>
+                <!-- <li><b>Challenge Track 1</b>: <a
+                    href="https://opensun3d.github.io/cvpr24-challenge/track_1">Open-vocabulary 3D object instance
+                    search</a></li>
+                <ul>
+                  <li><b>Submission Portal</b>: EvalAI</li>
+                  <li><b>Data Instructions & Helper Scripts</b>: April 15, 2024</li>
+                  <li><b>Dev Phase Start</b>: April 15, 2024</li>
+                  <li><b>Submission Portal Start</b>: April 15, 2024</li>
+                  <li><b>Test Phase Start</b>: May 1, 2024</li>
+                  <li><b>Test Phase End</b>: June 8, 2024 (23:59 Pacific Time)</li>
+
+                </ul>
+                <li><b>Challenge Track 2</b>: <a
+                    href="https://opensun3d.github.io/cvpr24-challenge/track_2">Open-vocabulary 3D affordance
+                    grounding</a></li>
+                <ul>
+                  <li><b>Submission Portal</b>: EvalAI</li>
+                  <li><b>Data Instructions & Helper Scripts</b>: April 15, 2024</li>
+                  <li><b>Dev Phase Start</b>: April 15, 2024</li>
+                  <li><b>Submission Portal Start</b>: April 15, 2024</li>
+                  <li><b>Test Phase Start</b>: May 1, 2024</li>
+                  <li><b>Test Phase End</b>: June 8, 2024 (23:59 Pacific Time)</li> -->
+
+                </ul>
+              </ul>
+            </div>
+          </section>
+
+          <!-- <section class="section" id="Challenge">
+            <div class="container is-max-desktop content">
+              <h2 class="title" id="challenge">Challenge</h2>
+              (Please check <a href="https://opensun3d.github.io/index_iccv23.html#challengeresults">this page</a> out
+              for an overview of last year's challenge results.
+              We have also published a <a href="https://arxiv.org/abs/2402.15321"> technical report</a> providing an
+              overview of our ICCV 2023 workshop challenge.)
+              <br>
+              <br>
+            </div>
+            This year, our challenge will consist of two tracks:
+
+            <li>Track 1: Open-vocabulary 3D object instance search</li>
+            <li>Track 2: Open-vocabulary 3D affordance grounding</li>
+
+            <br>
+          </section> -->
+
+
+          <section class="section" id="Organizers">
+            <div class="container is-max-desktop content">
+              <h2 class="title" id="organizers">Organizers</h2>
+
+              <div class="columns is-centered is-variable is-0">
+                <div class="column is-one-quarter">
+                  <a href="http://francisengelmann.github.io">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/fang.jpg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Yi Fang</p>
+                            <p class="subtitle is-7">New York University Abu Dhabi, UAE</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a href="https://aycatakmaz.github.io">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/hao.jpeg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Hao Huang</p>
+                            <p class="subtitle is-7">New York University Abu Dhabi, UAE</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a href="https://jonasschult.github.io">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/yuan.jpeg"
+                            alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Shuaihang Yuan</p>
+                            <p class="subtitle is-7">New York University Abu Dhabi, UAE</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="column is-one-quarter">
+                  <a href="https://github.com/elisabettafedele">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/liu.jpeg" alt="Placeholder image"> 
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Yu-Shen Liu</p>
+                            <p class="subtitle is-7">Tsinghua University, Beijing, China</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <div class="columns is-centered is-variable is-0">
+
+                <div class="column is-one-quarter">
+                  <a href="https://alexdelitzas.github.io/">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/tuka.jpg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Tuka Waddah Alhanai</p>
+                            <p class="subtitle is-7">New York University Abu Dhabi, UAE</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="column is-one-quarter">
+                  <a href="https://github.com/WaldJohannaU">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/yu.png" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Yu Hao</p>
+                            <p class="subtitle is-7">New York University Abu Dhabi, UAE</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a href="https://pengsongyou.github.io">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/jen.jpeg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Junsheng Zhou</p>
+                            <p class="subtitle is-7">Tsinghua University, Beijing, China</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a href="https://xiwang1212.github.io/homepage/">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/images/geeta.png" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Geeta Chandra Raju, Bethala</p>
+                            <p class="subtitle is-7">New York University, New York, USA</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- <div class="column is-one-fifth">
+                  <a href="https://geometry.stanford.edu/member/guibas/">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./static/img/leonidas.jpg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Leonidas Guibas</p>
+                            <p class="subtitle is-7">Stanford University</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div> -->
+
+              </div>
+            </div>
+          </section>
+
+          <!-- <section class="section" id="Sponsors">
+        <div class="container is-max-desktop content">
+          <h2 class="title">Sponsors </h2>
+        </div>
+      </section> -->
+
+          <footer class="footer">
+            <div class="container">
+              <div class="content">
+                <p>
+                  This website is licensed under a <a rel="license"
+                    href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                    Commons Attribution-ShareAlike 4.0 International License</a>.
+                  <br />
+                  It borrows the source code of <a href="https://github.com/nerfies/nerfies.github.io">this website</a>.
+                  We would like to thank Utkarsh Sinha and Keunhong Park.
+                </p>
+              </div>
+            </div>
+          </footer>
+</body>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</html>
